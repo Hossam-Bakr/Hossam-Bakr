@@ -7,7 +7,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/hossam-bakr-491575234"><img src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" height="36"></a>
-  <a href="mailto:hossam.b2kr@gmail.com"><img src="./assets/contact-email.svg" alt="Email Hossam Bakr" height="36"></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hossam.b2kr%40gmail.com" title="Compose an email in Gmail"><img src="./assets/contact-email.svg" alt="Email Hossam Bakr" height="36"></a>
   <a href="https://github.com/Hossam-Bakr?tab=repositories"><img src="./assets/contact-code.svg" alt="View repositories" height="36"></a>
 </p>
 
