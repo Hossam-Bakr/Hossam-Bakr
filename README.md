@@ -2,25 +2,16 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-dark-mobile.svg">
   <source media="(max-width: 600px)" srcset="./assets/hero-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Hossam Bakr — Backend Developer. Node.js, NestJS and TypeScript. APIs, authentication, data and tests.">
+  <img src="./assets/hero-light.svg" width="100%" alt="Hossam Bakr — Backend Developer | Node.js · NestJS · TypeScript">
 </picture>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/hossam-bakr-491575234"><img src="./assets/contact-linkedin.svg" height="36" alt="Connect on LinkedIn"></a>
-  &nbsp;
-  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hossam.b2kr%40gmail.com" title="Compose an email in Gmail"><img src="./assets/contact-email.svg" height="36" alt="Email Hossam Bakr"></a>
-  &nbsp;
-  <a href="https://github.com/Hossam-Bakr?tab=repositories"><img src="./assets/contact-repos.svg" height="36" alt="Explore my repositories"></a>
+<p>
+  <a href="https://www.linkedin.com/in/hossam-bakr-491575234"><img src="./assets/contact-linkedin.svg" height="28" alt="Connect on LinkedIn"></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hossam.b2kr%40gmail.com" title="Compose an email in Gmail"><img src="./assets/contact-email.svg" height="28" alt="Email Hossam Bakr"></a>
+  <a href="https://github.com/Hossam-Bakr?tab=repositories"><img src="./assets/contact-repos.svg" height="28" alt="Explore my repositories"></a>
 </p>
 
-## A little about me
-
-I'm a **Backend Developer** building REST APIs with **Node.js, NestJS and TypeScript**. I focus on the details that make an API useful: clear contracts, thoughtful data models, authentication and automated tests.
-
-- **Professional work:** contributing to **Alwaseet**, a legal content platform, through an outsourced team working with **Mirroful**.
-- **Project focus:** developing **Cleanora**, a cleaning marketplace backend built as a modular monolith.
-- **Background:** B.Sc. in Systems and Computer Engineering, **Al-Azhar University, 2024**.
-- **Beyond the API:** experience with React and React Native helps me understand the teams consuming what I build.
+Backend developer specializing in **Node.js, NestJS, and TypeScript**. I build REST APIs with a focus on authentication, database design, clear API contracts, and automated testing. My experience includes freelance development and contributions to a legal content platform.
 
 ## My toolkit
 
@@ -73,69 +64,39 @@ I'm a **Backend Developer** building REST APIs with **Node.js, NestJS and TypeSc
 
 ## Selected projects
 
-<a href="https://github.com/Hossam-Bakr/Cleanora-api">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/cleanora-dark-mobile.svg">
-    <source media="(max-width: 600px)" srcset="./assets/cleanora-light-mobile.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/cleanora-dark.svg">
-    <img src="./assets/cleanora-light.svg" width="100%" alt="Featured project: Cleanora. A cleaning marketplace backend using TypeScript, Express, PostgreSQL and Prisma.">
-  </picture>
-</a>
-
-### [Cleanora — Cleaning Marketplace API ↗](https://github.com/Hossam-Bakr/Cleanora-api)
-
-A modular backend for a cleaning marketplace, with a focus on identity, API contracts and testability.
-
-- **Authentication:** email verification, Argon2 password hashing, rotating refresh sessions and Google sign-in.
-- **API contracts:** Zod validation, rate limiting and OpenAPI 3.1 documentation.
-- **Testing:** unit and integration tests with Vitest and Supertest.
-
-`TypeScript` `Express` `PostgreSQL` `Prisma`
-
----
-
-### [E-Commerce API ↗](https://github.com/Hossam-Bakr/ecommerce-api)
-
-A REST API covering the shopping journey: products, carts, wishlists, coupons and orders. Includes JWT roles, search, pagination and **Stripe Checkout**.
-
-`Node.js` `Express` `MongoDB` `Stripe`
-
-### [EasyJob ↗](https://github.com/Hossam-Bakr/EasyJob)
-
-A team-built job platform connecting candidates and employers. **My contribution:** backend structure, the Sequelize data layer, Google OAuth, password reset and candidate search APIs.
-
-`Node.js` `Express` `MySQL` `Sequelize`
+<table>
+  <tr>
+    <td width="23%" valign="top"><a href="https://github.com/Hossam-Bakr/Cleanora-api"><b>Cleanora</b></a><br><sub>Cleaning marketplace</sub></td>
+    <td>Modular REST API with email verification, Google sign-in, rotating refresh sessions, Zod validation, and OpenAPI documentation. Unit and integration tests with Vitest and Supertest.<br><sub><b>TypeScript · Express · PostgreSQL · Prisma</b></sub></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/Hossam-Bakr/ecommerce-api"><b>E-Commerce API</b></a><br><sub>Online retail</sub></td>
+    <td>Product catalog, carts, wishlists, coupons, and order management, with role-based access, search, pagination, and Stripe Checkout.<br><sub><b>Node.js · Express · MongoDB · Stripe</b></sub></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/Hossam-Bakr/EasyJob"><b>EasyJob</b></a><br><sub>Team project</sub></td>
+    <td>Job platform for candidates and employers. Contributed the backend structure, Sequelize data layer, Google OAuth, password reset, and candidate search APIs.<br><sub><b>Node.js · Express · MySQL · Sequelize</b></sub></td>
+  </tr>
+</table>
 
 ## Professional experience
 
-### Backend Developer · Mirroful
+**Backend Developer · Alwaseet legal content platform**<br>
+Contributing through an outsourced development team working with **Mirroful**, using NestJS, TypeORM, PostgreSQL, and Redis.
 
-**Via an outsourced development team · Alwaseet legal content platform**
+- Documented **160 API operations** with Swagger and improved the development setup.
+- Contributed to book-editing workflows, including locking, revisions, validation, permissions, database migrations, and Jest end-to-end tests.
+- Contributed Redis-backed caching and fixes for JWT identifiers, content visibility, and notification behavior.
 
-Working with **NestJS, TypeORM, PostgreSQL and Redis** on a platform for legal content.
+**Education:** B.Sc. in Systems and Computer Engineering · Al-Azhar University, 2024.
 
-| Focus | Contribution |
-| :--- | :--- |
-| **API documentation** | Documented **160 API operations** with Swagger and improved the development setup. |
-| **Editorial workflows** | Worked on book editing with locks, revisions, validation and permissions. |
-| **Data & testing** | Contributed database migrations and Jest end-to-end tests. |
-| **Caching & fixes** | Redis-backed caching; fixes for JWT identifiers, judgment visibility and content-watch notifications. |
-
-## GitHub at a glance
+## GitHub overview
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/github-dark-mobile.svg">
   <source media="(max-width: 600px)" srcset="./assets/github-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-dark.svg">
-  <img src="./assets/github-light.svg" width="100%" alt="GitHub public repository statistics and language breakdown. Snapshot date and scope are shown on the card.">
+  <img src="./assets/github-light.svg" width="100%" alt="Public GitHub statistics and language distribution by code bytes across owned, non-fork repositories. Snapshot date is shown on the card.">
 </picture>
 
-<sub>Public data only. Language share is based on code bytes in owned, non-fork repositories; it is not a measure of proficiency.</sub>
-
----
-
-### Have a backend project in mind?
-
-Let's talk about APIs, data models and the work behind the product.
-
-**[Connect on LinkedIn ↗](https://www.linkedin.com/in/hossam-bakr-491575234)** &nbsp; · &nbsp; **[hossam.b2kr@gmail.com](mailto:hossam.b2kr@gmail.com)**
+<sub>Language distribution reflects public code, not proficiency. Updated weekly.</sub>
